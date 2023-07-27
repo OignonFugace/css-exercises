@@ -1,0 +1,21 @@
+body {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 0;
+    /* outline: 2px red solid; */
+}
+
+* + * {
+    /* outline: 2px green solid; */
+    margin-top: 50px;
+}
+
+.container .text {
+    color: brown;
+    background-color: yellowgreen;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+}
